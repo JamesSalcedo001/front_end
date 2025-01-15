@@ -22,7 +22,7 @@ export default function Home() {
       </section>
 
       <section id="footer" className="bg-gray-200 py-20">
-        <div>
+        <div className="flex items-center justify-center h-full">
           <h1>Footer Section</h1>
         </div>
       </section>
