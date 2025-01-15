@@ -1,3 +1,7 @@
 export default function Tributes() {
-  return <p>Tributes</p>;
+  return (
+    <main>
+      <h2>Tributes</h2>
+    </main>
+  )
 }

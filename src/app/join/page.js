@@ -1,3 +1,7 @@
 export default function Join() {
-  return <p>Join</p>;
+  return (
+    <main>
+      <h2>Join</h2>
+    </main>
+  )
 }
