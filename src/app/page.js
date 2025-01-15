@@ -1,8 +1,9 @@
-
+import Hero from "./components/Hero"
 
 export default function Home() {
   return (
     <main>
+      <Hero/>
       <section id="home" className="min-h-screen pt-40 bg-gray-100">
         <div className="flex items-center justify-center h-full">
           <h1>Carousel Section</h1>
