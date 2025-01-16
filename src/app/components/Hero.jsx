@@ -7,7 +7,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className= "h-[400px]"  style={{ 
+    <div className= "h-[450px]"  style={{ 
       backgroundImage: `url('hero-image-expanded-2.jpg')`,
       backgroundPosition: 'top',
       backgroundSize: 'cover',
