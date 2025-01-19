@@ -8,8 +8,8 @@ export default function Home() {
       <Hero/>
       <section id="home" className="min-h-screen bg-white">
         <div className="h-full pt-[60px]">
-          {/* <h1>Carousel Section</h1> */}
-          <Carousel carouselData={carouselData}/>
+          <h1>Carousel Section</h1>
+          {/* <Carousel carouselData={carouselData}/> */}
         </div>
       </section>
 
