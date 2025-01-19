@@ -14,38 +14,38 @@ export default function Navbar() {
                     <Link id="logo" className="font-bold text-3xl pr-10"
                     href="/"
                     >
-                    When Robots Take Over
+                    RTO
                     </Link>                              
                 </li>
-                <li className={currentPath === "/" ? "active": "inactive" }>
+                <li className={currentPath === "/" ? "active p-3": "inactive p-3" }>
                     <Link
                     href="/"
                     >
                     Home
                     </Link>
                 </li>
-                <li className={currentPath === "/about" ? "active": "inactive" }>
+                <li className={currentPath === "/about" ? "active p-3": "inactive p-3" }>
                     <Link
                     href="/about"
                     >
                     About Us
                     </Link>
                 </li>
-                <li className={currentPath === "/tributes" ? "active": "inactive" }>
+                <li className={currentPath === "/tributes" ? "active p-3": "inactive p-3" }>
                     <Link
                     href="/tributes"
                     >
                     Tributes
                     </Link>
                 </li>
-                <li className={currentPath === "/join" ? "active": "inactive" }>
+                <li className={currentPath === "/join" ? "active p-3": "inactive p-3" }>
                     <Link id="join"
                     href="/join"
                     >
                     Join
                     </Link>
                 </li>
-                <li className="pl-7">
+                <li className="inactive ml-7 p-4">
                     <Link
                     href="https://instagram.com"
                     target="_blank"

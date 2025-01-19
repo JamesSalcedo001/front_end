@@ -1,15 +1,11 @@
-import Hero from "./components/Hero"
-import Carousel from "./components/Carousel";
-import carouselData from "./mock-data/carouselData";
+"use client"
 
 export default function Home() {
   return (
     <main>
-      <Hero/>
       <section id="home" className="min-h-screen bg-white">
         <div className="h-full pt-[60px]">
           <h1>Carousel Section</h1>
-          {/* <Carousel carouselData={carouselData}/> */}
         </div>
       </section>
 
